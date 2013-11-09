@@ -10,7 +10,7 @@
 });
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
-    <tabTrigger>Backbone</tabTrigger>
+    <tabTrigger>Marionette</tabTrigger>
     <!-- Optional: Description to show in the menu -->
     <scope>source.js</scope>
     <description>Marionette: Layout</description>

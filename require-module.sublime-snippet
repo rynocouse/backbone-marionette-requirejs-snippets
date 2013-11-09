@@ -2,7 +2,7 @@
     <content><![CDATA[
 /**
  * ${TM_FILENAME/.js//g}
- * ${1:The ${TM_FILENAME/.js//g} module.}
+ * The ${TM_FILENAME/.js//g} module.
  */
 
 define(function(require){
@@ -13,7 +13,7 @@ define(function(require){
 	Backbone = require('backbone'),
 	Marionette = require('marionette');
 
-	return $3
+	return $1
 
 });
 ]]></content>
