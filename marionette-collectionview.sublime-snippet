@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[Backbone.Marionette.CollectionView.extend({
+        itemView: $1,
+        emptyView: $2,
+        ui: {$3}
+        itemViewOptions: {},
+        onBeforeRender: function() {},
+        onRender: function() {},
+        onBeforeClose: function() {},
+        onClose: function() {},
+        onBeforeItemAdded: function() {},
+        onAfterItemAdded: function() {},
+        onItemRemoved: function() {}
+});
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>Marionette</tabTrigger>
+    <!-- Optional: Description to show in the menu -->
+    <scope>source.js</scope>
+    <description>Marionette: CollectionView</description>
+</snippet>

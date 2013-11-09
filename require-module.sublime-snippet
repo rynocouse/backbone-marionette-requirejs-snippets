@@ -1,0 +1,25 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * ${TM_FILENAME/.js//g}
+ * ${1:The ${TM_FILENAME/.js//g} module.}
+ */
+
+define(function(require){
+
+	var app = require('app'),
+	_ = require('underscore'),
+	\$ = require('jquery'),
+	Backbone = require('backbone'),
+	Marionette = require('marionette');
+
+	return $3
+
+});
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>define</tabTrigger>
+    <!-- Optional: Description to show in the menu -->
+    <scope>source.js</scope>
+    <description>RequireJS Module: Simplified CommonJS</description>
+</snippet>

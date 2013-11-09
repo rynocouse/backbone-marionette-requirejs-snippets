@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[Backbone.Marionette.Layout.extend({
+        template: $1,
+        ui: {$2},
+        regions: {$3},
+        onBeforeRender: function() {},
+        onRender: function() {},
+        onBeforeClose: function() {},
+        onClose: function() {}
+});
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>Backbone</tabTrigger>
+    <!-- Optional: Description to show in the menu -->
+    <scope>source.js</scope>
+    <description>Marionette: Layout</description>
+</snippet>
