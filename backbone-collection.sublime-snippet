@@ -8,5 +8,5 @@
     <tabTrigger>Backbone</tabTrigger>
     <!-- Optional: Description to show in the menu -->
     <scope>source.js</scope>
-    <description>Backbone: Collection</description>
+    <description>Collection (Backbone)</description>
 </snippet>

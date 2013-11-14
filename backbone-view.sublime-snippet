@@ -8,5 +8,5 @@
     <tabTrigger>Backbone</tabTrigger>
     <!-- Optional: Description to show in the menu -->
     <scope>source.js</scope>
-    <description>Backbone: View</description>
+    <description>View (Backbone)</description>
 </snippet>

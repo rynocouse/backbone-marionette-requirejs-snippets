@@ -1,18 +1,26 @@
 <snippet>
     <content><![CDATA[Backbone.Marionette.CompositeView.extend({
         template: $1,
-        ui: {$2},
+        collection: $2,
+        model: $3,
+        itemView: $4,
+        emptyView: $5,
+        ui: {$3},
+        itemViewOptions: {},
         onCompositeModelRendered: function() {},
         onCompositeCollectionRendered: function() {},
         onBeforeRender: function() {},
         onRender: function() {},
         onBeforeClose: function() {},
-        onClose: function() {}
+        onClose: function() {},
+        onBeforeItemAdded: function() {},
+        onAfterItemAdded: function() {},
+        onItemRemoved: function() {}
 });
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
-    <tabTrigger>Marionette</tabTrigger>
+    <tabTrigger>Backbone</tabTrigger>
     <!-- Optional: Description to show in the menu -->
     <scope>source.js</scope>
-    <description>Marionette: CompositeView</description>
+    <description>View: CompositeView (Marionette)</description>
 </snippet>

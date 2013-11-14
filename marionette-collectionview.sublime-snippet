@@ -1,7 +1,8 @@
 <snippet>
     <content><![CDATA[Backbone.Marionette.CollectionView.extend({
-        itemView: $1,
-        emptyView: $2,
+        collection: $1,
+        itemView: $2,
+        emptyView: $3,
         ui: {$3}
         itemViewOptions: {},
         onBeforeRender: function() {},
@@ -14,8 +15,8 @@
 });
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
-    <tabTrigger>Marionette</tabTrigger>
+    <tabTrigger>Backbone</tabTrigger>
     <!-- Optional: Description to show in the menu -->
     <scope>source.js</scope>
-    <description>Marionette: CollectionView</description>
+    <description>View: CollectionView (Marionette)</description>
 </snippet>

@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[Backbone.RelationalModel.extend({
+        initialize: function() {},
+        url: '$1',
+        relations: [{
+            type: Backbone.HasMany,
+            key: 'animals',
+            relatedModel: 'Animal',
+            collectionType: 'AnimalCollection',
+            reverseRelation: {
+                key: 'livesIn',
+                includeInJSON: 'id'
+                // 'relatedModel' is automatically set to 'Zoo'; the 'relationType' to 'HasOne'.
+            }
+        }]
+});
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>Backbone</tabTrigger>
+    <!-- Optional: Description to show in the menu -->
+    <scope>source.js</scope>
+    <description>Model: RelationalModel (Relational)</description>
+</snippet>
